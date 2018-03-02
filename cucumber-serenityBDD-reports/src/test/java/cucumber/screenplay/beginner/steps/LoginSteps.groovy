@@ -22,7 +22,7 @@ class LoginSteps {
     void enterUsernameAndPassword() {
 
         loginPage.inputUsernameAndPassword()
-        loginPage.findBy("//*[@id='password']").sendKeys("12345")
+        loginPage.findBy("//*[@id='password']").sendKeys("123456789")
 
     }
 

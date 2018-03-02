@@ -9,6 +9,6 @@ class SSOLoginPage extends PageObject{
     WebElementFacade username
 
     void inputUsernameAndPassword(){
-        username.findBy("//*[@id='username']").sendKeys("thanathep@summitthai.com")
+        username.findBy("//*[@id='username']").sendKeys("niwesboy20@gmail.com")
     }
 }
