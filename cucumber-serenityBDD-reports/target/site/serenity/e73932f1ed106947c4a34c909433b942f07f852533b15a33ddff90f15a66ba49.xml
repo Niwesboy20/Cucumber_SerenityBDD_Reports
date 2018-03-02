@@ -1,0 +1,51 @@
+<acceptance-test-run title="Login with incorrect username and password." name="Login with incorrect username and password." description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12360" timestamp="2018-03-02T15:34:15.414+07:00" session-id="2c44dbe0b729f9ffc057b2995fa28ba4">
+  <user-story id="logintest" name="LoginTest" path="src/feature/Login.feature"/>
+  <tags>
+    <tag name="LoginTest" type="feature"/>
+  </tags>
+  <test-group name="Given I navigate to SSO login page" result="SUCCESS">
+    <test-step result="SUCCESS" duration="7600">
+      <description>Is on the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I enter the username and password" result="SUCCESS">
+    <screenshots>
+      <screenshot image="871e2732dc5fe65621610dea5fa12c1b.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="816">
+      <screenshots>
+        <screenshot image="8cbefb844ea5ff4b43550d989261a1d8.png"/>
+      </screenshots>
+      <description>Enter username and password</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I click login button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="a7329ce1d35699dcdf9c330ad51e094f.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="694">
+      <screenshots>
+        <screenshot image="8cbefb844ea5ff4b43550d989261a1d8.png"/>
+        <screenshot image="a7329ce1d35699dcdf9c330ad51e094f.png"/>
+      </screenshots>
+      <description>Click login button</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="496">
+    <screenshots>
+      <screenshot image="a7329ce1d35699dcdf9c330ad51e094f.png"/>
+    </screenshots>
+    <description>Then I should see error message alert from page</description>
+  </test-step>
+  <test-group name="And I close web browser" result="SUCCESS">
+    <screenshots>
+      <screenshot image="a7329ce1d35699dcdf9c330ad51e094f.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="772">
+      <screenshots>
+        <screenshot image="a7329ce1d35699dcdf9c330ad51e094f.png"/>
+      </screenshots>
+      <description>Close web driver</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
